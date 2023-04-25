@@ -22,7 +22,10 @@ sudo ./install-kind.sh
 ```
 
 **push-to-github.sh**
-```This Bash script is a simple automation script that commits changes to a Git repository and pushes them to a remote repository on GitHub```
+
+```
+This Bash script is a simple automation script that commits changes to a Git repository and pushes them to a remote repository on GitHub
+```
 
 ## Installation
 Once installed, you can use Docker, Helm, and Kind to build, deploy, and manage your applications.
