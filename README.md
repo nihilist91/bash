@@ -21,9 +21,10 @@ To install Kind, run the following command:
 sudo ./install-kind.sh
 ```
 
-**push-to-github.sh**
+push-to-github.sh
 
 ```
+./push-to-github.sh
 This Bash script is a simple automation script that commits changes to a Git repository and pushes them to a remote repository on GitHub
 ```
 
