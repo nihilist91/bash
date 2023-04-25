@@ -29,8 +29,8 @@ git commit -m "$message"
 read -p "Enter repository name: " repo_name
 
 # Set username and password for git push
-username="mohammedhank91"
-password="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"
+username=""
+password=""
 
 # Push changes with username and password to specified repository
 git push https://$username:$password@github.com/$username/$repo_name.git
