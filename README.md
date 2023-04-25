@@ -1,4 +1,4 @@
-# Repository Name
+# BASH
 
 This repository contains scripts for installing Docker, Helm, and Kind on Ubuntu.
 
