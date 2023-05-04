@@ -32,5 +32,12 @@ read -p "Enter repository name: " repo_name
 username=""
 password=""
 
+# Check if the repository exists
+if ! curl --silent --head --request GET "https://api.github.com/repos/$username/$repo_name" | grep "200 OK" > /dev/null; then
+    # Create a new repository
+    echo "Creating repository $repo_name"
+    curl -u $username:$password https://api.github.com/user/repos -d '{"name":"'$repo_name'"}'
+fi
+
 # Push changes with username and password to specified repository
 git push https://$username:$password@github.com/$username/$repo_name.git
