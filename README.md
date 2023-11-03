@@ -13,8 +13,9 @@ This repository contains a collection of bash scripts for installing various too
 ## Usage
 
 Follow the steps below to use the scripts:
-
+```
 ./name of the bash script and enter 
+```
 
 ## License
 
