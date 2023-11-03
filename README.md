@@ -1,4 +1,4 @@
-# Repository Name
+# BASH
 
 This repository contains a collection of bash scripts for installing various tools and utilities. It aims to simplify the installation process and provide a convenient way to set up development environments.
 
@@ -20,3 +20,5 @@ Follow the steps below to use the scripts:
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
+
+![Screenshot](https://i.ibb.co/x7qDK7q/Vanilla-1s-280px-1.gif)
