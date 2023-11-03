@@ -7,9 +7,8 @@ This repository contains a collection of bash scripts for installing various too
 - helm
 - kind
 - docker
-- jh
-- 
-
+- python & pip 
+- terraform
 
 ## Usage
 
@@ -20,4 +19,3 @@ Follow the steps below to use the scripts:
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
-```
