@@ -1,25 +1,23 @@
-# BASH
+# Repository Name
 
-This repository contains scripts for installing Docker, Helm, and Kind on Ubuntu.
+This repository contains a collection of bash scripts for installing various tools and utilities. It aims to simplify the installation process and provide a convenient way to set up development environments.
 
-## Installation
+## Tools Installed
 
-To install Docker, run the following command:
+- helm
+- kind
+- docker
+- jh
+- 
 
-```bash
-sudo ./install-docker.sh
+
+## Usage
+
+Follow the steps below to use the scripts:
+
+./name of the bash script and enter 
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
 ```
-To install Helm, run the following command:
-
-```bash
-./install-helm.sh
-```
-
-To install Kind, run the following command:
-
-```bash
-sudo ./install-kind.sh
-```
-
-## Installation
-Once installed, you can use Docker, Helm, and Kind to build, deploy, and manage your applications.
